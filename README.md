@@ -43,7 +43,7 @@ A full-stack video sharing platform built with the MERN stack. Users can upload,
 
 ```
 Streamify/
-├── backend/
+├── Backend/
 │   ├── src/
 │   │   ├── controllers/      # Business logic
 │   │   ├── models/           # Mongoose schemas
@@ -55,7 +55,7 @@ Streamify/
 │   │   └── index.js          # Entry point
 │   └── .env
 │
-└── yt fronend/
+└── Frontend/
     ├── src/
     │   ├── pages/            # Home, Login, Register, Upload, VideoDetail, Profile, MyVideos, Playlist
     │   ├── components/       # Navbar, Sidebar
@@ -84,7 +84,7 @@ cd backend
 npm install
 ```
 
-Create a `.env` file in `backend/`:
+Create a `.env` file in `Backend/`:
 
 ```env
 PORT=8000
@@ -115,7 +115,7 @@ The backend runs on `http://localhost:8000`.
 ### Frontend Setup
 
 ```bash
-cd "yt fronend"
+cd "Frontend"
 npm install
 ```
 
